@@ -12,7 +12,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'DocusPro',
   tagline: 'Doumentations',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/segurico.png',
 
   // Set the production url of your site here
   url: 'https://docusaurus.io',
@@ -79,7 +79,7 @@ const config = {
         title: 'My Site',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/Logoseg.png',
         },
         items: [
           {
