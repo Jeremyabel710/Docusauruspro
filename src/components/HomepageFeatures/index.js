@@ -4,61 +4,59 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Implementación Sencilla',
+    imgSrc: '/img/seguri.png',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        El gestor de contraseñas se puede integrar fácilmente en sistemas existentes, 
+        facilitando una implementación rápida y sin complicaciones.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Enfoque en la Seguridad',
+    imgSrc: '/img/security.png',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Protege tus credenciales con cifrado avanzado y buenas prácticas.
+        El manual te guía paso a paso para una configuración segura.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Uso Práctico y Eficiente',
+    imgSrc: '/img/SeguriP.jpg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Aprende cómo almacenar, recuperar y gestionar contraseñas de forma segura
+        desde cualquier dispositivo, optimizando tu flujo de trabajo diario.
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ imgSrc, title, description }) {
   return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+    <section className={clsx('col col--12', styles.feature)}>
+      <div className={clsx(styles['feature-content'])}>
+        <div className={clsx(styles['feature-text'])}>
+          <Heading as="h2">{title}</Heading>
+          <p>{description}</p>
+        </div>
+        <div className={clsx(styles['feature-img'])}>
+          <img src={imgSrc} alt={title} />
+        </div>
       </div>
-      <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
-        <p>{description}</p>
-      </div>
-    </div>
+    </section>
   );
 }
 
 export default function HomepageFeatures() {
   return (
-    <section className={styles.features}>
-      <div className="container">
-        <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
-          ))}
-        </div>
-      </div>
+    <section className={styles['features']}>
+      {FeatureList.map((props, idx) => (
+        <Feature key={idx} {...props} />
+      ))}
     </section>
   );
 }

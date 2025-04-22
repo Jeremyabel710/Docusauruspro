@@ -1,11 +1,75 @@
+/* Fondo principal de las secciones */
 .features {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  padding: 2rem 0;
+  padding: 5rem 0;
+  width: 100%;
+  background-color: #e0f1f9; /* Fondo tenue (celeste suave) */
+}
+
+/* Estilo para cada sección de características */
+.feature {
+  display: flex;
+  justify-content: space-between; /* Texto a la izquierda, imagen a la derecha */
+  align-items: center;           /* Alineación vertical centrada */
+  width: 100%;
+  max-width: 1200px;             /* Limita el ancho máximo para no ocupar toda la pantalla */
+  padding: 3rem;
+  background-color: #f0f8ff;     /* Fondo tenue para cada sección */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra tenue */
+  margin-bottom: 2rem;            /* Espacio entre las secciones */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Estilo para el contenido dentro de cada sección */
+.feature-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
 }
 
-.featureSvg {
-  height: 200px;
-  width: 200px;
+/* Estilo para el texto en cada sección */
+.feature-text {
+  flex: 1;
+  font-size: 2rem;  /* Tamaño de fuente más grande */
+  color: #333333;   /* Color gris oscuro para el texto */
+  line-height: 1.6;  /* Espaciado entre las líneas de texto */
+  font-family: 'Arial', sans-serif; /* Fuente moderna */
+  font-weight: 600;  /* Peso de fuente en negrita */
+  padding-right: 2rem;  /* Espacio entre el texto y la imagen */
+  margin: 0;        /* Elimina márgenes por defecto */
+}
+
+/* Estilo para la imagen en cada sección */
+.feature-img {
+  flex: 1;
+  max-width: 45%;  /* Limita el tamaño de la imagen */
+  width: 100%;     /* Asegura que la imagen ocupe el espacio disponible */
+  height: auto;    /* Mantiene la proporción de la imagen */
+  object-fit: contain; /* Mantiene la proporción sin distorsión */
+}
+
+/* Ajustes para mejorar la visibilidad en pantallas pequeñas */
+@media (max-width: 768px) {
+  .feature {
+    flex-direction: column; /* Cambia a disposición vertical en pantallas pequeñas */
+    text-align: center; /* Centra el texto */
+  }
+
+  .feature-text {
+    width: 100%; /* El texto ocupa todo el ancho disponible */
+    text-align: center; /* Centra el texto en pantallas pequeñas */
+    padding-right: 0;   /* Elimina el espacio entre texto e imagen */
+    margin-bottom: 1rem;  /* Agrega espacio debajo del texto */
+  }
+
+  .feature-img {
+    width: 150px; /* Ajusta el tamaño de la imagen en pantallas pequeñas */
+    margin: 0 auto; /* Centra la imagen */
+  }
 }
