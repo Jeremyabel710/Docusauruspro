@@ -1,11 +1,23 @@
 const sidebars = {
   tutorialSidebar: [
     {
+      type: 'doc',
+      id: 'Introduccion/inspector-introduccion',
+      label: 'Introduccion',      
+    },
+    {
       type: 'category',
-      label: '⚙️ Tutorial Básico',
+      label: 'Modo de Dispositivo',
       items: [
-        'tutorial-basics/create-a-document',
-        'tutorial-basics/create-a-page',
+        'ModoDispositivo/simulacion-dispositivos'
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Seccion elementos',
+      items: [
+        'Seccionelementos/elements-introduccion',
+        'Seccionelementos/elements-edicion-estilos'
       ],
     },
     {
@@ -18,10 +30,9 @@ const sidebars = {
     },
     {
       type: 'doc',
-      id: 'intro',  // Este documento sí existe
+      id: 'intros',  // Este documento sí existe
       label: '📘 Introducción',
     },
-
   ],
 };
 
