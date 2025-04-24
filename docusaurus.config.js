@@ -10,9 +10,9 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'DocusPro',
+  title: 'Manual de inspeccion de Elementos',
   tagline: 'Doumentations',
-  favicon: 'img/segurico.png',
+  favicon: 'img/inspeccionarico.png',
 
   // Set the production url of your site here
   url: 'https://docusaurus.io',
@@ -79,7 +79,7 @@ const config = {
         title: 'Documentacion',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/Logoseg.png',
+          src: 'img/listalogo.png',
         },
         items: [
           {
@@ -90,7 +90,7 @@ const config = {
           },
           
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/Jeremyabel710/Docusauruspro',
             label: 'GitHub',
             position: 'right',
           },
@@ -134,7 +134,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/Jeremyabel710/Docusauruspro',
               },
             ],
           },

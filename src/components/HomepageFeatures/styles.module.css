@@ -6,7 +6,7 @@
   align-items: center;
   padding: 5rem 0;
   width: 100%;
-  background-color: #f4f7fc; /* Fondo tenue (celeste suave) */
+  background-color: var(--feature-section-bg); /* Fondo tenue (celeste suave) */
 }
 
 /* Estilo para cada sección de características */
@@ -17,12 +17,13 @@
   width: 100%;
   max-width: 1200px;             /* Limita el ancho máximo para no ocupar toda la pantalla */
   padding: 4rem;
-  background-color: #ffffff;     /* Fondo blanco para cada sección */
   border-radius: 12px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Sombra suave */
   margin-bottom: 2rem;            /* Espacio entre las secciones */
   margin-left: auto;
   margin-right: auto;
+  background-color: var(--feature-box-bg);
+  color: var(--feature-text-color);
 }
 
 /* Estilo para el contenido dentro de cada sección */
@@ -37,7 +38,7 @@
 .feature-text {
   flex: 1;
   font-size: 1.8rem;  /* Tamaño de fuente más grande */
-  color: #2c3e50;     /* Color oscuro para el texto */
+  color: var(--feature-text-color);    /* Color oscuro para el texto */
   line-height: 1.8;   /* Espaciado entre las líneas de texto */
   font-family: 'Roboto', sans-serif; /* Fuente moderna de Google Fonts */
   font-weight: 400;   /* Peso de fuente normal */
@@ -48,7 +49,7 @@
 .feature-text h2 {
   font-size: 3rem;  /* Título más grande */
   font-weight: 500;   /* Peso de fuente medio */
-  color: #34495e;     /* Color más oscuro para los títulos */
+  color: var(--feature-title-color);     /* Color más oscuro para los títulos */
   margin-bottom: 1.5rem; /* Espacio debajo del título */
   letter-spacing: 1px; /* Espaciado entre letras para un efecto moderno */
 }

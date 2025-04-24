@@ -14,6 +14,11 @@
   --ifm-color-primary-lighter: #33bfc5;
   --ifm-color-primary-lightest: #80dee2;
   --docusaurus-highlighted-code-line-bg: rgba(0, 109, 119, 0.08);
+
+  --feature-section-bg: #f4f7fc;
+  --feature-card-bg: #ffffff;
+  --feature-text-color: #2c3e50;
+  --feature-title-color: #34495e;
 }
 
 [data-theme='dark'] {
@@ -25,4 +30,9 @@
   --ifm-color-primary-lighter: #b1eff1;
   --ifm-color-primary-lightest: #d9f8f9;
   --docusaurus-highlighted-code-line-bg: rgba(51, 191, 197, 0.12);
+
+  --feature-section-bg: #1e1e2f;
+  --feature-card-bg: #2a2a3d;
+  --feature-text-color: #e0e0e0;
+  --feature-title-color: #ffffff;
 }
