@@ -4,32 +4,32 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Implementación Sencilla',
-    imgSrc: '/img/seguri.png',
+    title: 'Explora el DOM',
+    imgSrc: '/img/devtools-dom-tree.png', // imagen sugerida: vista del árbol DOM abierto en DevTools
     description: (
       <>
-        El gestor de contraseñas se puede integrar fácilmente en sistemas existentes, 
-        facilitando una implementación rápida y sin complicaciones.
+        Navega y modifica la estructura HTML directamente desde la pestaña <strong>Elements</strong>.
+        Ideal para depurar contenido o probar cambios en tiempo real.
       </>
     ),
   },
   {
-    title: 'Enfoque en la Seguridad',
-    imgSrc: '/img/security.png',
+    title: 'Edita Estilos al Instante',
+    imgSrc: '/img/devtools-style-panel.png', // imagen sugerida: edición de CSS en vivo desde el panel derecho
     description: (
       <>
-        Protege tus credenciales con cifrado avanzado y buenas prácticas.
-        El manual te guía paso a paso para una configuración segura.
+        Ajusta colores, márgenes, fuentes y más desde el panel de estilos. 
+        Visualiza de inmediato cómo afectan tus cambios al diseño de la página.
       </>
     ),
   },
   {
-    title: 'Uso Práctico y Eficiente',
-    imgSrc: '/img/SeguriP.jpg',
+    title: 'Inspección Visual Intuitiva',
+    imgSrc: '/img/devtools-element-highlight.png', // imagen sugerida: resaltado visual del elemento en la página al inspeccionar
     description: (
       <>
-        Aprende cómo almacenar, recuperar y gestionar contraseñas de forma segura
-        desde cualquier dispositivo, optimizando tu flujo de trabajo diario.
+        Al pasar el cursor por un nodo del DOM, verás su posición, tamaño y estilos aplicados. 
+        Una herramienta clave para comprender la maquetación de cualquier sitio.
       </>
     ),
   },

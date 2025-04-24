@@ -6,7 +6,7 @@
   align-items: center;
   padding: 5rem 0;
   width: 100%;
-  background-color: #e0f1f9; /* Fondo tenue (celeste suave) */
+  background-color: #f4f7fc; /* Fondo tenue (celeste suave) */
 }
 
 /* Estilo para cada sección de características */
@@ -16,10 +16,10 @@
   align-items: center;           /* Alineación vertical centrada */
   width: 100%;
   max-width: 1200px;             /* Limita el ancho máximo para no ocupar toda la pantalla */
-  padding: 3rem;
-  background-color: #f0f8ff;     /* Fondo tenue para cada sección */
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra tenue */
+  padding: 4rem;
+  background-color: #ffffff;     /* Fondo blanco para cada sección */
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Sombra suave */
   margin-bottom: 2rem;            /* Espacio entre las secciones */
   margin-left: auto;
   margin-right: auto;
@@ -36,24 +36,39 @@
 /* Estilo para el texto en cada sección */
 .feature-text {
   flex: 1;
-  font-size: 2rem;  /* Tamaño de fuente más grande */
-  color: #333333;   /* Color gris oscuro para el texto */
-  line-height: 1.6;  /* Espaciado entre las líneas de texto */
-  font-family: 'Arial', sans-serif; /* Fuente moderna */
-  font-weight: 600;  /* Peso de fuente en negrita */
+  font-size: 1.8rem;  /* Tamaño de fuente más grande */
+  color: #2c3e50;     /* Color oscuro para el texto */
+  line-height: 1.8;   /* Espaciado entre las líneas de texto */
+  font-family: 'Roboto', sans-serif; /* Fuente moderna de Google Fonts */
+  font-weight: 400;   /* Peso de fuente normal */
   padding-right: 2rem;  /* Espacio entre el texto y la imagen */
   margin: 0;        /* Elimina márgenes por defecto */
+  text-align: left; /* Alineación de texto a la izquierda */
 }
-
+.feature-text h2 {
+  font-size: 3rem;  /* Título más grande */
+  font-weight: 500;   /* Peso de fuente medio */
+  color: #34495e;     /* Color más oscuro para los títulos */
+  margin-bottom: 1.5rem; /* Espacio debajo del título */
+  letter-spacing: 1px; /* Espaciado entre letras para un efecto moderno */
+}
 /* Estilo para la imagen en cada sección */
 .feature-img {
   flex: 1;
-  max-width: 45%;  /* Limita el tamaño de la imagen */
-  width: 100%;     /* Asegura que la imagen ocupe el espacio disponible */
-  height: auto;    /* Mantiene la proporción de la imagen */
-  object-fit: contain; /* Mantiene la proporción sin distorsión */
+  max-width: 100%;        /* Asegura que la imagen use todo el ancho disponible de su contenedor */
+  width: 100%;
+  height: 400px;          /* Aumenta la altura para hacerlo más grande */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+.feature-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;    /* Contiene la imagen sin distorsión */
+  border-radius: 8px;
+}
 /* Ajustes para mejorar la visibilidad en pantallas pequeñas */
 @media (max-width: 768px) {
   .feature {
@@ -69,7 +84,7 @@
   }
 
   .feature-img {
-    width: 150px; /* Ajusta el tamaño de la imagen en pantallas pequeñas */
+    width: 200px; /* Ajusta el tamaño de la imagen en pantallas pequeñas */
     margin: 0 auto; /* Centra la imagen */
   }
 }
