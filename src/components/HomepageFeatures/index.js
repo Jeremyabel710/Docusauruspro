@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Explora el DOM',
-    imgSrc: '/img/devtools-dom-tree.png', // imagen sugerida: vista del árbol DOM abierto en DevTools
+    imgSrc: '/docusaurus/img/devtools-dom-tree.png', // imagen sugerida: vista del árbol DOM abierto en DevTools
     description: (
       <>
         Navega y modifica la estructura HTML directamente desde la pestaña <strong>Elements</strong>.
@@ -15,7 +15,7 @@ const FeatureList = [
   },
   {
     title: 'Edita Estilos al Instante',
-    imgSrc: '/img/devtools-style-panel.png', // imagen sugerida: edición de CSS en vivo desde el panel derecho
+    imgSrc: '/docusaurus/img/devtools-style-panel.png', // imagen sugerida: edición de CSS en vivo desde el panel derecho
     description: (
       <>
         Ajusta colores, márgenes, fuentes y más desde el panel de estilos. 
@@ -25,7 +25,7 @@ const FeatureList = [
   },
   {
     title: 'Inspección Visual Intuitiva',
-    imgSrc: '/img/devtools-element-highlight.png', // imagen sugerida: resaltado visual del elemento en la página al inspeccionar
+    imgSrc: '/docusaurus/img/devtools-element-highlight.png', // imagen sugerida: resaltado visual del elemento en la página al inspeccionar
     description: (
       <>
         Al pasar el cursor por un nodo del DOM, verás su posición, tamaño y estilos aplicados. 

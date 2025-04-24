@@ -12,13 +12,13 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Manual de inspeccion de Elementos',
   tagline: 'Doumentations',
-  favicon: 'img/inspeccionarico.png',
+  favicon: '/docusaurus/img/inspeccionarico.png',
 
   // Set the production url of your site here
   url: 'https://933333743.senati.chat.pe',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/Prodocu/',
+  baseUrl: '/docusaurus/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -74,12 +74,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: '/img/docusaurus-social-card.jpg',
       navbar: {
         title: 'Documentacion',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/listalogo.png',
+          src: '/docusaurus/img/listalogo.png',
         },
         items: [
           {

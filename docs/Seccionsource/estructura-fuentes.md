@@ -24,8 +24,4 @@ Puedes identificar:
 Presiona `Ctrl + P` (Windows/Linux) o `Cmd + P` (macOS) para buscar archivos por nombre rápidamente.
 :::
 
-<img 
-  src={require('@site/static/img/sources-panel-estructura.png').default} 
-  alt="Estructura del panel Sources" 
-  style={{ width: '80%', margin: '2rem auto', borderRadius: '8px', boxShadow: '0 4px 12px rgba(0, 0, 0, 0.1)' }} 
-/>
+![Estructura del panel Sources](/img/sources-panel-estructura.png)

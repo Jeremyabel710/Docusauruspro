@@ -5,7 +5,7 @@ sidebar_label: Introducción
 ---
 
 <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
-  <img src="/img/inspector-logo.png" alt="Inspector Logo" width="150" />
+  <img src="/docusaurus/img/inspector-logo.png" alt="Inspector Logo" width="150" />
 </div>
 
 # 🕵️‍♂️ ¿Qué es el Inspector de Elementos?
@@ -55,5 +55,5 @@ Ahora que sabes **qué es**, en los próximos capítulos aprenderás a:
 ---
 
 <div style={{ textAlign: 'center', marginTop: '2rem' }}>
-  <img src="/img/browser-tools.jpg" alt="Herramientas del navegador" width="90%" style={{ borderRadius: '10px', boxShadow: '0 0 10px rgba(0,0,0,0.1)' }} />
+  <img src="/docusaurus/img/browser-tools.jpg" alt="Herramientas del navegador" width="90%" style={{ borderRadius: '10px', boxShadow: '0 0 10px rgba(0,0,0,0.1)' }} />
 </div>
